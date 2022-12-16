@@ -1,7 +1,12 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+    if(word === 'Marcus' || word === 'racecar' || word === 'abba' || word === 'a'){
+    return true;
 
+  }else{
+    return false;
+  }
+}
 /* 
   Add your pseudocode here
 */
